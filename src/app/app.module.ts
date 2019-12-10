@@ -11,6 +11,7 @@ import { LoginAComponent } from './components/login-a/login-a.component';
 import { InicioPComponent } from './components/inicio-p/inicio-p.component';
 import { NotasComponent } from './components/notas/notas.component';
 import { CajaComponent } from './components/caja/caja.component';
+import { Login } from './components/login.component/login.component.component';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -26,7 +27,8 @@ const appRoutes: Routes = [
     LoginAComponent,
     InicioPComponent,
     NotasComponent,
-    CajaComponent
+    CajaComponent,
+    Login.ComponentComponent
   ],
   imports: [
     RouterModule.forRoot(
